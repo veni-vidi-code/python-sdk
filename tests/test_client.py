@@ -4,8 +4,8 @@ from typing import Optional
 import mock
 import pytest
 from aiohttp import ClientSession
-from discord import Client
-from discord.ext.commands import Bot
+from nextcord import Client
+from nextcord.ext.commands import Bot
 from pytest import CaptureFixture
 from pytest_mock import MockerFixture
 

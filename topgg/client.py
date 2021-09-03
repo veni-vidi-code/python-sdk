@@ -32,8 +32,8 @@ from asyncio.tasks import Task
 from contextlib import suppress
 from typing import Any, Dict, List, Optional, Union, cast
 
-import discord
-from discord.ext.commands.bot import BotBase
+import nextcord as discord
+from nextcord.ext.commands.bot import BotBase
 
 # if sys.version_info >= (3, 8):
 #     from typing import TypedDict

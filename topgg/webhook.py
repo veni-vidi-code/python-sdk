@@ -34,7 +34,7 @@ else:
 from typing import TYPE_CHECKING, Dict
 
 import aiohttp
-import discord
+import nextcord as discord
 from aiohttp import web
 
 from .types import BotVoteData, ServerVoteData
